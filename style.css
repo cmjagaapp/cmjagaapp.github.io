@@ -1,0 +1,37 @@
+.pulse-button-container {
+  text-align: center;
+}
+
+
+    .pulse-button {
+  display: inline-block;
+  background-color: #254b29;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 0 0 rgba(37, 75, 41, 0.7);
+  transition: background-color 0.4s ease-out;
+  animation: pulse 2s infinite;
+}
+
+.pulse-button:hover {
+  color: #254b29;
+  background-color: #ffffff;
+  border: 1px solid #254b29;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 75, 41, 0.7);
+  }
+  
+  70% {
+    box-shadow: 0 0 0 20px rgba(37, 75, 41, 0);
+  }
+  
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 75, 41, 0);
+  }
+}
