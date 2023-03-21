@@ -3,10 +3,11 @@
 }
 
 
-    .pulse-button {
+.pulse-button {
   display: inline-block;
   background-color: #254b29;
   color: white;
+  margin-top: 20px;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
