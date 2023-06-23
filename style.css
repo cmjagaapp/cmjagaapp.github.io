@@ -145,7 +145,7 @@ body {
 }
 .blog-slider__content {
   padding-right: 10px;
-  transform: translateX(-40px);
+  transform: translateX(-30px);
 }
 @media screen and (max-width: 992px) {
   .blog-slider__content {
